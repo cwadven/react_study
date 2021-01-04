@@ -35,4 +35,4 @@ return 값 바로 위에 선언을 하고 JSX에 {}로 묶고 그 안에 해당 
 
 - 결과
 
-<img src="https://github.com/cwadven/react_study/blob/master/assets/seq003.PNG" alt="react" width="500"/><br><br>
+<img src="https://github.com/cwadven/react_study/blob/master/assets/seq003.PNG" alt="react" width="300"/><br><br>
