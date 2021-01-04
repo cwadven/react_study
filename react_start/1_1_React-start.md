@@ -12,20 +12,7 @@ VSCode Extense(확장)에서 설치
 - auto rename tag
 - path intellisense
 
-4. **터미널에서 prettier 설치**
-~~~
-$ yarn add prettier --save-dev --save-exact
-$ yarn add eslint-plugin-prettier eslint-config-prettier --save-dev
-~~~
-
-위의 터미널로 설치 완료 후
-
-VSCode Extense(확장)에서 추가 설치
-
-- ESlint
-- Prettier
-
-5. **Ctrl + , 를 눌러 오른쪽 종이 모양 클릭**
+4. **Ctrl + , 를 눌러 오른쪽 종이 모양 클릭**
 
 <img src="https://github.com/cwadven/react_study/blob/master/assets/seq0.PNG" alt="drawing" width="500"/><br><br>
 
@@ -43,7 +30,7 @@ settings.json 에 아래 코드 추가
 }
 ~~~
 
-6. **create-react-app 이라는 것 다운로드**
+5. **create-react-app 이라는 것 다운로드**
 ~~~
 $yarn global add create-react-app
 ~~~
@@ -58,12 +45,18 @@ create-react-app으로 react를 생성하는 경우, react가 기본으로 필�
 $create-react-app 프로젝트이름
 ~~~
 
-2. **리엑트 프로젝트 실행**
+2. **터미널에서 prettier 설치**
+~~~
+$ yarn add prettier --save-dev --save-exact
+$ yarn add eslint-plugin-prettier eslint-config-prettier --save-dev
+~~~
 
-~~~
-$cd 프로젝트이름
-$yarn start
-~~~
+위의 터미널로 설치 완료 후
+
+VSCode Extense(확장)에서 추가 설치
+
+- ESlint
+- Prettier
 
 3. **완료 못한 prettier, eslint 연결하기**
 
@@ -88,4 +81,11 @@ $yarn start
     "semi": true, // 붙부분에 ; 붙여주는지
     "singleQuote": true // "" 이런거를 작은 따옴표로 혹은 큰 따옴표
 }
+~~~
+
+4. **리엑트 프로젝트 실행**
+
+~~~
+$cd 프로젝트이름
+$yarn start
 ~~~
