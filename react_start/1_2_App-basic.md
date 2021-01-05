@@ -22,7 +22,29 @@ src -> App.js
 <img src="https://github.com/cwadven/react_study/blob/master/assets/seq3.PNG" alt="react" width="500"/><br><br>
 
 
-2. **변수를 JSX에 넣어보자**
+2. **class 형태 return**
+
+- function 말고 class로 이용할 경우 이렇게 만들어야 한다.
+
+```javascript
+import './App.css';
+import {Fragment, Component} from 'react';
+
+class App extends Component {
+  render(){
+    return (
+      <Fragment>
+        <div>안녕하세요</div>
+        <div>저는 누구에요~!</div>
+      </Fragment>
+    );
+  }
+}
+
+export default App;
+```
+
+3. **변수를 JSX에 넣어보자**
 
 변수의 값을 이용하여 JSX에 값을 표현하고 싶을 경우!<br>
 (js 코드를 JSX에 표현하고 싶을 경우!)

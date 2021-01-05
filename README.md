@@ -16,4 +16,5 @@
 - [React 기초 사용 및 빌드 방법](https://github.com/cwadven/react_study/blob/master/react_start/1_1_React-start.md "React 기초 사용 및 빌드 방법")
 - [React 첫걸음 시작하기 App.js](https://github.com/cwadven/react_study/blob/master/react_start/1_2_App-basic.md "React 첫걸음 시작하기 App.js")
 - [React style 및 css를 이용해보자](https://github.com/cwadven/react_study/blob/master/react_start/1_3_Style.md "React style 및 css를 이용해보자")
-- [React state를 이용해 보자](https://github.com/cwadven/react_study/blob/master/react_start/1_4_State.md "React state를 이용해 보자")
+- [React props를 알아 보자](https://github.com/cwadven/react_study/blob/master/react_start/1_4_Props.md "React props를 알아 보자")
+- [React state를 이용해 보자](https://github.com/cwadven/react_study/blob/master/react_start/1_5_State.md "React state를 이용해 보자")
