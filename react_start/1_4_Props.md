@@ -52,6 +52,8 @@ export default App;
 
 아래 코드와 같이 만약 **`App.js`**에 있는 MyName 태그에 name을 넣지 않았을 경우 defaultProps에 있는 값이 들어간다!
 
+1. 방법 1
+
 ```javascript
 import React, { Component } from 'react';
 
@@ -67,6 +69,27 @@ class MyName extends Component {
     );
   }
 }
+
+export default MyName;
+```
+
+1. 방법 2
+```javascript
+import React, { Component } from 'react';
+
+class MyName extends Component {
+  render() {
+    return (
+      <div>
+        안녕하세요! 제 이름은 <b>{this.props.name}</b> 입니다.
+      </div>
+    );
+  }
+}
+
+MyName.defaultProps = {
+  name: '기본이름'
+};
 
 export default MyName;
 ```
